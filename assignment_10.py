@@ -1,3 +1,7 @@
+# Cheryllynn Matos
+# CIS 245 Assignment 10
+# 02/21/2021
+
 import os
 
 user_directory = input("Enter the directory you would like to save the file in (' ') ")
@@ -13,7 +17,7 @@ if os.path.isdir(filePath):
 
 user_name = input("Enter the name: ")
 user_address = input("Enter the address: ")
-user_number = (str)input("Enter the phone number: ")
+user_number = input("Enter the phone number: ")
 
 with open(completePath, 'w') as fileHandle:
     fileHandle.write(user_name)
